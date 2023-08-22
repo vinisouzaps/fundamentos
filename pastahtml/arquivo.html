@@ -1,0 +1,54 @@
+<html>
+
+    <body>
+
+        
+        <form action="">
+
+        <input type = "text" id = "palavra">
+
+        <input type = "button" value= "ok" onclick= "frutas()">
+
+        </form>
+
+        <script>
+           
+function frutas(){
+
+
+var input = document.querySelector("#palavra");
+
+var texto = input.value;
+
+var cor = "";
+
+if (texto == "maçã"){
+        
+                
+        cor = "vermelho" ; 
+}
+else if (texto == "laranja"){
+        
+                
+        cor = "laranja" ; 
+}
+
+else if (texto == "tangerinaa"){
+        
+                
+        cor = "laranja" ; 
+}
+
+else if (texto == "limão"){
+        
+                
+        cor = "verde" ; 
+}
+
+alert(texto + ' é ' + cor);  
+
+}
+
+        </script>
+    </body>
+</html>
