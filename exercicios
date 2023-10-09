@@ -1,0 +1,125 @@
+# #2-	Faça um programa que leia e valide as seguintes informações
+# #a.	Nome: maior que 3 caracteres
+# #b.Idade: entre 0 e 150
+# #c.	Salário: maior que zero
+# #d.	Sexo: 'f' ou 'm'
+# #e.	Estado Civil: 's', 'c', 'v', 'd'
+"""
+n = input("Digite o seu nome : ")
+if len(n) <= 3:
+    print("Nome muito pequeno digite mais de tres caracteres.")
+    n = input("Digite o seu nome : ")
+i = int(input("Digite sua idade : "))
+if (i == 0) or (i >= 150):
+    print("Digite uma idade valida")
+    i = int(input("Digite sua idade : "))
+s = input("Digie seu sealário : ")
+if s <= int(0):
+    print("Digite um salário maior que 0")
+    s = input("Digie seu sealário : ")
+sx = input("Digie seu sexo : ")
+if s != "f" or s != "m":
+    print("Digite um sexo válido")
+    sx = input("Digie seu sexo : ")
+ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e divorciado(a) é d : ")
+if ec != "s" or ec != "c" or ec != "v"  or ec != "d":
+    print("Digite o estado civil correto. ")
+    ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e e divorciado(a) é d : ")
+
+print(n)
+print(i)
+print(s)
+print(sx)
+print(ec)
+
+
+n = input("Digite o seu nome : ")
+while len(n) < 3:
+    print("Nome muito pequeno digite mais de tres caracteres.")
+    n = input("Digite o seu nome : ")
+i = int(input("Digite sua idade : "))
+while (i >= 0) or (i <= 150):
+    print("Digite uma idade valida")
+    i = int(input("Digite sua idade : "))
+s = input("Digie seu sealário : ")
+while s <= 0:
+    print("Digite um salário maior que 0")
+    s = input("Digie seu sealário : ")
+sx = input("Digie seu sexo : ")
+while s != "f" or s != "m":
+    print("Digite um sexo válido")
+    sx = input("Digie seu sexo : ")
+ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e divorciado(a) é d : ")
+while ec != "s" or ec != "c" or ec != "v"  or ec != "d":
+    print("Digite o estado civil correto. ")
+    ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e e divorciado(a) é d : ")
+
+print(n)
+print(i)
+print(s)
+print(sx)
+print(ec)
+
+
+n = input("Digite o seu nome : ")
+while len(n) < 3:
+    print("Nome muito pequeno digite mais de tres caracteres.")
+    n = input("Digite o seu nome : ")
+i = input("Digite sua idade : ")
+while not i.isnumeric or (int(i) < 0 or int(i) > 150):
+    print("Digite uma idade valida")
+    i = input("Digite sua idade : ")
+i = int(i)
+s = input("Digie seu sealário : ")
+while not s.isnumeric() or int(s) < 0:
+    print("Digite um salário maior que 0")
+    s = input("Digie seu sealário : ")
+sx = input("Digie seu sexo : ")
+while s != "f" or s != "m": #while not (s == "f" or s == "m"):
+    print("Digite um sexo válido")
+    sx = input("Digie seu sexo : ")
+ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e divorciado(a) é d : ")
+while ec != "s" or ec != "c" or ec != "v"  or ec != "d":
+    print("Digite o estado civil correto. ")
+    ec = input("Digite seu estado civil Solteiro(a) é s, casado(a) é igual a c, viuvo(a) é igual a v e e divorciado(a) é d : ")
+
+print(n)
+print(i)
+print(s)
+print(sx)
+print(ec)
+
+
+senha = "1234"
+usuario = 'danilo'
+usuario_teste = input("")
+senha_teste = 
+tentativas = 1
+while (senha != senha_teste or usuario != usuario_teste) and tentativas < 3:
+    print(f"Restam {3 - tentativas}")
+    usuario_teste = input("Digite o usuário : ")
+    senha_teste = input("Digite a senha : ")
+    if usuario == 
+
+senha = "1234"
+usuario = 'danilo'
+usuario_teste = input("Digite o usuário : ")
+senha_teste = input("Digite a senha : ")
+tentativas = 3
+for i in range(tentativas):
+    usuario_teste = input("Digite o usuário : ")
+    senha_teste = input("Digite a senha : ")
+    if usuario == usuario_teste and senha_teste == senha :
+        break
+    print(f"Restam {tentativas - (i + 1)} tantativas")
+"""    
+for i in range(0, 10, 2):
+    print(i)
+    
+for i in range(10, 0, -2):
+    print(i)
+    
+for i in range(0, 10, -2):
+    print(i)
+"""
+
